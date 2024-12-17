@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <center>
+            <form action="./register success.html" method="get">
+                <h1>register form</h1>
+                <label for="name">name</label>
+                <input type="text" placeholder="name" name="name" required>
+                <br>
+                <br>
+                <label for="password">password</label>
+                <input type="password" placeholder="password" name="password"pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&]).{8,16}" title="multiple characters,length8 to16"required>
+                <br>
+                <br>
+                <label for="mail">mail</label>
+                <input type="mail" placeholder="mail" name="mail" required>
+                <br>
+                <br>
+                <label for="phone number">phone number</label>
+                <input type="phone number" placeholder="phone number" name="phone number" required>
+                <br>
+                <br>
+                <input type="submit" value="register">
+                <br></center>
+                <a href="./index.html" target="-blank" align="left">go back</a>
+
+            </form>
+        
+    </fieldset>
+</body>
+
+</html>
